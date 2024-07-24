@@ -1,0 +1,36 @@
+{
+  "name": "mock-react-component",
+  "version": "0.0.0",
+  "author": "MiseryLee <miserylee@foxmail.com>",
+  "homepage": "https://github.com/miserylee/mock-react-component#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "main": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miserylee/mock-react-component.git"
+  },
+  "devDependencies": {
+    "@formmy/configs": "^0.2.2",
+    "@lerna-lite/cli": "^3.3.1",
+    "@lerna-lite/list": "^3.3.1",
+    "@lerna-lite/publish": "^3.3.1",
+    "@lerna-lite/version": "^3.3.1",
+    "@types/react": "^18.3.3",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "pretty-format": "^29.6.3",
+    "react": "^17"
+  },
+  "scripts": {
+    "publish": "lerna publish"
+  }
+}

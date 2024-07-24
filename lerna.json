@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
+  "version": "0.2.0",
+  "npmClient": "pnpm",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
+    }
+  },
+  packages: ["."]
+}
