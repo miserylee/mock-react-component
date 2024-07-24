@@ -31,6 +31,8 @@
     "react": "^17"
   },
   "scripts": {
+    "build": "tsc",
+    "version": "pnpm run build",
     "publish": "lerna publish"
   }
 }
