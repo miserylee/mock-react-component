@@ -24,11 +24,14 @@
     "@lerna-lite/version": "^3.3.1",
     "@types/react": "^18.3.3",
     "eslint": "^8.57.0",
+    "react": "^17",
     "typescript": "^5.3.3"
   },
-  "dependencies": {
-    "pretty-format": "^29.6.3",
+  "peerDependencies": {
     "react": "^17"
+  },
+  "dependencies": {
+    "pretty-format": "^29.6.3"
   },
   "scripts": {
     "build": "tsc",
